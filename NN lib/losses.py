@@ -12,3 +12,9 @@ MSE = Loss_Function(
         lambda y_true, y_pred: np.mean(np.power(y_true - y_pred,2)),  
         lambda y_true, y_pred: 2 * (y_pred - y_true) / np.size(y_true)
         )
+
+#Categorical Cross-Entropy Loss:
+CCE = Loss_Function(
+    lambda y_true, y_pred: - np.sum(y_true * np.log(y_pred)), 
+    lambda y_true, y_pred: - y_true / y_pred
+    )
