@@ -2,6 +2,7 @@
 I started this free-time project to get a feeling for the deeplearning fundamentals and maths. 
 This project is based on the tutorials of ["The Independent Code"](https://www.youtube.com/@independentcode/videos). 
 I have updated the whole project to support batch input, mini-batch gradient descent and many activation functions.
+I found that this project helpt me a lot with understanding and getting feeling for the linear algebra math needed for deeplearning. 
 
 ## includes:
 * A Keras sequential like api, that is suitable for batch learning. 
@@ -27,4 +28,29 @@ I have updated the whole project to support batch input, mini-batch gradient des
 ### supported loss functions:
 - Mean Squared Error
 - Categorical Cross Entropy
+
+## Functionality:
+Step 1. Define your network as a list of layers:
+```
+network = [
+    Dense(2,4),
+    act.ELU(1),
+    Dense(4,1),
+    act.ELU(1)
+    ]
+```
+Step 2. Define the model: 
+with the networks sequential list, loss function and optional the solver (standard is sgd, for batch gradient descent set to None)
+```
+model = Neural_Network(layers=network, loss_function=MSE, solver='SGD')
+```
+step 3. fit the model:
+```
+model.fit(X, Y, epochs=10000, learning_rate=0.1, shuffle=True, verbose=true)
+```
+step 3. use the model for inference:
+```
+output = model.predict(input_data=input)
+```
+
 
