@@ -4,11 +4,11 @@ This project is based on the tutorials of ["The Independent Code"](https://www.y
 I have updated the whole project to support batch input, mini-batch gradient descent and many activation functions.
 
 ## includes:
-A Keras sequential like api, that is suitable for batch learning. 
-2 demo projects that use the api:
-- An XOR function
-- An interactive color preference learning model:
-  - This project was adviced by [Jabrils](https://www.youtube.com/@Jabrils). Props to him for making me interested in AI and deeplearning!
+* A Keras sequential like api, that is suitable for batch learning. 
+* 2 demo projects that use the api:
+  - An XOR function
+  - An interactive color preference learning model:
+    - This project was adviced by [Jabrils](https://www.youtube.com/@Jabrils). Props to him for making me interested in AI and deeplearning!
 
 ### supported activation functions:
 - Binary Step
