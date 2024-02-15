@@ -44,7 +44,7 @@ class Neural_Network:
         
         
         #correcting the batch_size:
-        batch_size = (X_train.shape[0] if self.solver =='SGD' 
+        batch_size = (1 if self.solver =='SGD' 
                       else batch_size if batch_size < X_train.shape[0] 
                       else X_train.shape[0])
         
