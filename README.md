@@ -7,7 +7,7 @@ I have updated the whole project to support batch input, mini-batch gradient des
 A Keras sequential like api, that is suitable for batch learning. 
 2 demo projects that use the api:
 - An XOR function
-- An interactive color prefrence learning model:
+- An interactive color preference learning model:
   - This project was adviced by [Jabrils](https://www.youtube.com/@Jabrils). Props to him for making me interested in AI and deeplearning!
 
 ### supported activation functions:
