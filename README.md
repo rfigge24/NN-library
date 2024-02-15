@@ -1,7 +1,7 @@
 # Neural Network library
 I started this free-time project to get a feeling for the deeplearning fundamentals and maths. 
-This project is based on the tutorials of "The Independent Code". 
-I have added the option to use batch input and mini-batch gradient descent.
+This project is based on the tutorials of ["The Independent Code"](https://www.youtube.com/@independentcode/videos). 
+I have updated the whole project to support batch input, mini-batch gradient descent and many activation functions.
 
 ## includes:
 A Keras sequential like api, that is suitable for batch learning. 
