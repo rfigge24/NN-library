@@ -1,7 +1,7 @@
 # Neural Network library
 I started this free-time project to get a feeling for the deeplearning fundamentals and maths. 
 This project is based on the tutorials of ["The Independent Code"](https://www.youtube.com/@independentcode/videos). 
-I have updated the whole project to support batch input, mini-batch gradient descent and many activation functions.
+I added a lot of my own, and updated the whole project to support batch input, mini-batch gradient descent and many activation functions.
 I found that this project helpt me a lot with understanding and getting feeling for the linear algebra math needed for deeplearning. 
 
 ## includes:
