@@ -30,6 +30,13 @@ I found that this project helpt me a lot with understanding and getting feeling 
 - Categorical Cross Entropy
 
 ## Functionality:
+```
+from neural_network import Neural_Network
+from dense import Dense
+import activations as act
+import losses
+```
+
 Step 1. Define your network as a list of layers:
 ```
 network = [
@@ -42,7 +49,7 @@ network = [
 Step 2. Define the model: 
 with the networks sequential list, loss function and optional the solver (standard is sgd, for batch gradient descent set to None)
 ```
-model = Neural_Network(layers=network, loss_function=MSE, solver='SGD')
+model = Neural_Network(layers=network, loss_function=losses.MSE, solver='SGD')
 ```
 step 3. fit the model:
 ```
